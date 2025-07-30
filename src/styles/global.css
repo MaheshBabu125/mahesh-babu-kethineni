@@ -1,0 +1,58 @@
+/* Global resets or custom styles */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Theme 1: Minimalist (default) */
+body.theme1 {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Theme 2: Dark mode */
+body.theme2 {
+  background-color: #1a202c;
+  color: #f7fafc;
+  font-family: 'Merriweather', serif;
+}
+
+/* Theme 3: Colorful & playful */
+body.theme3 {
+  background-color: #ffe4e6;
+  color: #6b21a8;
+  font-family: 'Pacifico', cursive;
+}
+
+header.theme1 {
+  background-color: #f7fafc;
+  color: #1a202c;
+  font-family: 'Inter', sans-serif;
+}
+header.theme2 {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Merriweather', serif;
+}
+header.theme3 {
+  background-color: #f7fafc;
+  color: #1a202c;
+  font-family: 'Pacifico', cursive;
+}
+body.theme1 header {
+  background-color: #f7fafc;
+  color: #1a202c;
+  font-family: 'Inter', sans-serif;
+}
+
+body.theme2 header {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Merriweather', serif;
+}
+
+body.theme3 header {
+  background-color: #f7fafc;
+  color: #1a202c;
+  font-family: 'Pacifico', cursive;
+}
